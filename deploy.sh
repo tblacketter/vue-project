@@ -4,9 +4,9 @@ set -e
 
 npm run build
 
-cd dist
+mv dist docs
+cd docs
 
-git init 
 git add -A
 git commit -m 'New Deployment'
 git push

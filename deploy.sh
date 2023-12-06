@@ -4,7 +4,7 @@ set -e
 
 npm run build
 
-mv dist docs
+cp -r dist docs
 
 git add -A
 git commit -m 'New Deployment'
